@@ -1,0 +1,142 @@
+{
+  "mod_elements": [
+    {
+      "name": "XusiaGun",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xusia_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/redonmod/item/XusiaGunItem.java",
+          "src/main/java/net/mcreator/redonmod/entity/XusiaGunEntity.java",
+          "src/main/resources/assets/redon_mod/models/item/xusia_gun.json"
+        ]
+      }
+    },
+    {
+      "name": "XusiaGunProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xusia_gun_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/redonmod/procedures/XusiaGunProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RedonItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redon_it_is_struck_by_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/redonmod/procedures/RedonItIsStruckByLightningProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RedonEntityDies",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redon_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/redonmod/procedures/RedonEntityDiesProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RedonOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redon_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/redonmod/procedures/RedonOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Redon",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/redon_mod/models/item/redon_spawn_egg.json",
+          "src/main/java/net/mcreator/redonmod/entity/RedonEntity.java",
+          "src/main/java/net/mcreator/redonmod/client/renderer/RedonRenderer.java",
+          "src/main/resources/data/redon_mod/forge/biome_modifier/redon_biome_modifier.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "nai",
+      "files": [
+        "aggouriba_biba_-_copy"
+      ],
+      "category": "neutral",
+      "subtitle": "O MR BEAST"
+    },
+    {
+      "name": "maou",
+      "files": [
+        "ariba_biba"
+      ],
+      "category": "neutral",
+      "subtitle": "i shitted my self"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "entity.redon_mod.redon": "Redon",
+      "item.redon_mod.redon_spawn_egg": "Redon Spawn Egg",
+      "subtitles.maou": "i shitted my self",
+      "item.redon_mod.xusia_gun": "XusiaGun",
+      "subtitles.nai": "O MR BEAST"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "redon_mod",
+    "modName": "Redon Mod",
+    "version": "1.0.0",
+    "author": "iamad, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.redonmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
