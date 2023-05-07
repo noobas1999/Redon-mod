@@ -1,0 +1,22 @@
+{
+  "nai": {
+    "category": "neutral",
+    "subtitle": "subtitles.nai",
+    "sounds": [
+      {
+        "name": "redon_mod:aggouriba_biba_-_copy",
+        "stream": false
+      }
+    ]
+  },
+  "maou": {
+    "category": "neutral",
+    "subtitle": "subtitles.maou",
+    "sounds": [
+      {
+        "name": "redon_mod:ariba_biba",
+        "stream": false
+      }
+    ]
+  }
+}

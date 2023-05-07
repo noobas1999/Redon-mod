@@ -1,0 +1,9 @@
+{
+  "parent": "redon_mod:custom/01_mk2",
+  "textures": {
+    "txt": "redon_mod:blocks/paou2",
+    "texture": "redon_mod:blocks/paou2",
+    "fire": "redon_mod:blocks/paou2",
+    "particle": "redon_mod:items/sad"
+  }
+}

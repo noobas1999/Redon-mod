@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "redon_mod:redon",
+    "weight": 20,
+    "minCount": 16,
+    "maxCount": 160
+  }
+}

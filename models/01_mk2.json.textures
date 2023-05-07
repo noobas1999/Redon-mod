@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "txt": "paou2",
+        "texture": "paou2",
+        "fire": "paou2"
+      },
+      "name": "default"
+    }
+  }
+}
